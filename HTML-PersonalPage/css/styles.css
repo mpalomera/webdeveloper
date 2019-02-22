@@ -1,3 +1,14 @@
 body {
 	background-color: #fdfff0; 
 }
+
+hr {
+	border-style: dotted none none none;
+	border-width: 5px;
+	border-color: #e8ecd6;
+	width: 20%;
+}
+
+h1,h3 {
+	color: #a1dd70;
+}
