@@ -1,5 +1,5 @@
 body {
-	background-color: #fdfff0; 
+	background-color: #fdfff0;
 }
 
 hr {
@@ -11,4 +11,37 @@ hr {
 
 h1,h3 {
 	color: #a1dd70;
+	display:inline;
+	vertical-align:top;
+}
+
+.cloud {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: relative;
+  margin:auto;
+}
+
+.top-cloud {
+  left:200px;
+}
+.bottom-cloud {
+  right:200px;
+}
+.top-container {
+  text-align: center;
+}
+.avatar {
+  border-radius: 100%;
+  width: 100px;
+  height: 125px;
+  vertical-align:middle;
+}
+p {
+	display:inline;
+	left:100px;
+	position:relative;
+	text-align: left;
+	vertical-align:middle;
 }
