@@ -1,7 +1,3 @@
-body {
-	background-color: #fdfff0;
-}
-
 hr {
 	border-style: dotted none none none;
 	border-width: 5px;
@@ -9,39 +5,42 @@ hr {
 	width: 20%;
 }
 
-h1,h3 {
-	color: #a1dd70;
-	display:inline;
-	vertical-align:top;
+h1{
+  font-family: 'Give You Glory', cursive;
+  font-size: 3rem;
+	color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.0rem;
+	color: #66BFBF;
 }
 
 .cloud {
   width: 100px;
-  height: 100px;
+  height: 80px;
   display: block;
   position: relative;
   margin:auto;
 }
 
 .top-cloud {
-  left:200px;
+  left:300px;
 }
+
 .bottom-cloud {
-  right:200px;
+  right:300px;
 }
+
 .top-container {
   text-align: center;
+  background-color: #EAF6F6;
 }
+
 .avatar {
   border-radius: 100%;
   width: 100px;
   height: 125px;
   vertical-align:middle;
-}
-p {
-	display:inline;
-	left:100px;
-	position:relative;
-	text-align: left;
-	vertical-align:middle;
 }
