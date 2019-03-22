@@ -9,12 +9,14 @@ h1{
   font-family: 'Give You Glory', cursive;
   font-size: 3rem;
 	color: #66BFBF;
+  margin: 0px;
 }
 
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.0rem;
 	color: #66BFBF;
+  margin: 0px;
 }
 
 .cloud {
@@ -47,9 +49,13 @@ h2{
   background-color: #EAF6F6;
 }
 
+.name-container{
+  text-align: center;
+}
+
 .avatar {
   border-radius: 100%;
-  width: 100px;
-  height: 125px;
+  width: 120px;
+  height: 150px;
   vertical-align:middle;
 }
