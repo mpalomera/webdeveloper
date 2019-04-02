@@ -1,8 +1,12 @@
+p{
+  color: #40514e;
+}
+
 hr {
 	border-style: dotted none none none;
-	border-width: 5px;
-	border-color: #e8ecd6;
-	width: 20%;
+	border-width: 7px;
+	border-color: #EAF6F6;
+	width: 7%;
 }
 
 h1{
@@ -45,12 +49,20 @@ h2{
 }
 
 .top-container {
+  padding-top: 40px;
   text-align: center;
   background-color: #EAF6F6;
+  margin:0px 0px 40px 0px;
+}
+
+.skills-container {
+  text-align: center;
+  margin:0px 0px 40px 0px;
 }
 
 .name-container{
   text-align: center;
+  margin:0px 0px 40px 0px;
 }
 
 .avatar {
@@ -58,4 +70,12 @@ h2{
   width: 120px;
   height: 150px;
   vertical-align:middle;
+}
+
+.ahamoment {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-right: 20px
 }
