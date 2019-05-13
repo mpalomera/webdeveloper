@@ -85,3 +85,17 @@ h2{
   margin:auto;
   display: inline-block;
 }
+
+.learning {
+  float: right;
+  width: 90px;
+  height: 100px;
+  border-radius: 100%;
+  margin-left: 20px
+}
+
+.text-right{
+  text-align: right;
+  margin:auto;
+  display: inline-block;
+}
